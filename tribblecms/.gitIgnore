@@ -1,0 +1,6 @@
+__pycache__/
+    #
+    # This is a workaround for a bug in Python 3.7.1 that causes
+    # `pytest.main()` to fail with a `SystemError: NULL pointer
+    # dereference` if a test fails.
+    #
