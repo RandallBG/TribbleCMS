@@ -6,6 +6,7 @@ import './App.css';
 import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 // pages import
 import Home from './pages/Home';
 import About from './pages/About';
@@ -26,6 +27,8 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+        <Footer />
+        
       </Router>
 
       

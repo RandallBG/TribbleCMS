@@ -1,0 +1,8 @@
+.footerWrapper {
+    background-color:  rgb(47, 44, 44);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    height: 2rem;
+    }
