@@ -1,0 +1,5 @@
+CREATE TABLE People(  
+    id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    ManufacturerName VARCHAR(255) NOT NULL,
+    ModelNumber INTEGER NOT NULL
+    );
